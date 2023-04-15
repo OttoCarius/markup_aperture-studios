@@ -1,2 +1,9 @@
 @import './common';
-@import '../sass/base/body';
+@import './base/body';
+@import './utils/mixin';
+@import './utils/variables';
+
+@import './components/header';
+@import './components/hero';
+@import './components/whatwedo';
+@import './components/photo-section';
