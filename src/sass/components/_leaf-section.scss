@@ -1,13 +1,12 @@
-.photo__section--wrap {
+.leaf__section--wrap {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   height: 600px;
-  background-image: url('../images/photo-section.jpg');
+  background-image: url('../images/leaf.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 10px solid #ffff;
 
   @media (max-width: 990px) {
   }
@@ -21,7 +20,7 @@
   }
 }
 
-.photo__text--wrap {
+.leaf__text--wrap {
   margin-bottom: 200px;
   margin-right: 60px;
   width: 300px;
@@ -34,22 +33,22 @@
   }
 }
 
-.photo__section--title {
+.leaf__section--title {
   color: #c0c0c0;
   margin-bottom: 5px;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
 }
-.photo__section--text {
+.leaf__section--text {
   color: #c0c0c0;
   font-size: 14px;
   line-height: 20px;
 }
-.photo__section--desc {
+.leaf__section--desc {
   padding: 0 20px 30px 20px;
 }
-.photo__section--list {
+.leaf__section--list {
   display: flex;
   justify-content: flex-end;
   gap: 16px;
